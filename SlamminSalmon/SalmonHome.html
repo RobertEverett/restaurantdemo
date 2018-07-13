@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><title>Slammin' Salmon-Home</title></head>
+
+<style>
+
+
+
+#DisclaimerContainer {
+height: 45px;
+width: 100%;
+border-bottom: 4px solid blue;
+font-size: .5em;
+}
+@media screen and (max-width: 768px) {
+  #DisclaimerContainer { font-size: .335em; text-align: center;}
+}
+
+
+h1 {
+text-decoration: underline;
+text-align: center;
+}
+@media screen and (max-width: 768px) {
+  h1 { text-align: center;}
+}
+
+
+#NavContainer {
+margin-top: 25px;
+position: relative;
+}
+
+nav ul li a {
+
+display: block;
+}
+
+
+nav ul li ul li {
+opacity: 0;
+visibility: hidden;
+display: block;
+position; absolute;
+font-size: 24px;
+background-color: gray;
+}
+@media screen and (max-width: 750px) {
+  nav ul li ul li { text-align: center; font-size: .525em;}
+}
+
+
+
+nav ul li:hover  li {
+opacity: 1;
+transition: 1s;
+visibility: visible;
+
+}
+
+
+nav ul li ul:hover  li {
+
+visibility: hidden;
+
+}
+
+
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  font-size:36px;
+  font-family: Gabriola;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  	
+} 
+@media screen and (max-width: 650px) {
+  ul { text-align: center; font-size: 1.2em;}
+}
+
+
+li {
+  display: inline-block;
+  text-align: center;
+} 
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: Gabriola;
+ 
+    
+}
+
+
+li a:hover:not(.active) {
+  background-color: #555;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+
+
+#RestLogo {
+
+
+height: 500px;
+
+}
+
+
+#RestFront {
+width: 100%;
+height: 1000px;
+background-image: url('SalmonFront.jpg');
+background-repeat: no-repeat;
+background-size: 100% 50%;
+margin-top: 50px;
+}
+
+#MenuButtonContainer {
+margin-top: 25px;
+text-align: center;
+}
+
+
+#MenuButton {
+height: 70px;
+width: 20%;
+background: linear-gradient(blue, white);
+color: white;
+font-size: 24px;
+}
+@media screen and (max-width: 760px) {
+  #MenuButton { font-size: .7em;}
+}
+
+
+
+
+#FooterContainer {
+height: 75px;
+width: 100%;
+background-color: lightgray;
+bottom: 0;
+position: fixed;
+}
+
+  
+
+
+#AppLinksContainer {
+height: 35px;
+width: 500px;
+margin: auto;
+position: relative;
+top: 20px;
+}
+@media screen and (max-width: 600px) {
+  #AppLinksContainer { width: 250px;}
+}
+
+#AppPicLink {
+float: left;
+display: inline-block;
+}
+
+#GooglePicLink {
+float: right;
+display: inline-block;
+
+}
+
+
+
+</style>
+
+<body>
+
+
+<div id="DisclaimerContainer">
+
+<h1>Note: This site is entirely fictional and exists only for demonstration purposes</h1>
+
+</div>
+
+
+<div id="NavContainer">
+
+  <nav>
+    <ul>
+      <li><a class="active" href="SalmonHome.html">Home</a></li>
+      <li><a href="MenuPage.html">Menu</a></li>
+      <li><a href="LocationPage.html">Location</a></li>
+      <li><a href="AboutPage.html">About</a></li>
+      <li><a href="">Downloads</a>
+	<ul>
+	  <li><a href="ItunesAppDownloadPage.html">Itunes App Download</a></li>
+	  <li><a href="GooglePlayAppDownloadPage.html">Google Play App Download</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+
+
+
+
+<div id="RestLogo">
+<div id="RestFront"></div>
+</div>
+
+<form id="MenuButtonContainer">
+<a href="MenuPage.html"> <input name="menu" type="button" id="MenuButton" value="Explore Menu" /> </a>
+</form>
+
+
+<footer>
+  
+  <div id="FooterContainer">  
+    
+    <div id="AppLinksContainer">
+    <a class="AppLinks" href="ItunesAppDownloadPage.html">
+      <img id="AppPicLink" src="ItunesAppDownload.png" alt="Itunes Download Link">
+    </a> 
+    <a class="AppLinks" href="GooglePlayAppDownloadPage.html">
+      <img id="GooglePicLink" src="GooglePlayAppDownload.png" alt="Google Play Download Link">
+    </a> 
+    </div>
+  </div>
+
+
+</footer>
+
+
+</body>
+
+</html>

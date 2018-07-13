@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><title>Slammin' Salmon-About</title></head>
+
+<style>
+
+body{
+background-image: url("CrispySalmon.png");
+background-repeat: no-repeat;
+background-size: 100% 750px;
+
+}
+@media screen and (max-width: 500px) {
+  body{ font-size: 1em; text-align: center;}
+}
+
+#DisclaimerContainer {
+height: 45px;
+width: 100%;
+border-bottom: 4px solid blue;
+font-size: .5em;
+}
+@media screen and (max-width: 768px) {
+  #DisclaimerContainer { font-size: .335em; text-align: center;}
+}
+
+
+h1 {
+text-decoration: bold;
+text-align: center;
+}
+@media screen and (max-width: 768px) {
+  h1 { text-align: center;}
+}
+
+
+#NavContainer {
+margin-top: 25px;
+position: relative;
+}
+
+nav ul li a {
+
+display: block;
+}
+
+
+nav ul li ul li {
+opacity: 0;
+visibility: hidden;
+display: block;
+position; absolute;
+font-size: 24px;
+background-color: gray;
+}
+@media screen and (max-width: 750px) {
+  nav ul li ul li { text-align: center; font-size: .525em;}
+}
+
+
+
+nav ul li:hover  li {
+opacity: 1;
+transition: 1s;
+visibility: visible;
+
+}
+
+
+nav ul li ul:hover  li {
+
+visibility: hidden;
+
+}
+
+
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  font-size:36px;
+  font-family: Gabriola;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  	
+} 
+@media screen and (max-width: 650px) {
+  ul { text-align: center; font-size: 1.2em;}
+}
+
+
+li {
+  display: inline-block;
+  text-align: center;
+} 
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: Gabriola;
+ 
+    
+}
+
+
+li a:hover:not(.active) {
+  background-color: #555;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+h1 {
+text-decoration: underline;
+
+}
+
+#AboutHead {
+float: left;
+margin-left: 3%;
+}
+
+#AboutParagraph {
+float: left;
+display: block;
+height: 200px;
+width: 1200px;
+
+}
+@media screen and (max-width: 1150px) {
+  #AboutParagraph {width: 1000px;}
+}
+@media screen and (max-width: 900px) {
+  #AboutParagraph {width: 500px; font-size: 12px;}
+}
+@media screen and (max-width: 600px) {
+  #AboutParagraph {width: 275px; font-size: 10px;}
+}
+
+p {
+float: left;
+font-size: 32px;
+color: white;
+margin-left: 3%;
+margin-top: 0px;
+}
+@media screen and (max-width: 1150px) {
+  p {font-size: 24px;}
+}
+@media screen and (max-width: 600px) {
+  p {font-size: 16px;}
+}
+
+#FooterContainer {
+height: 75px;
+width: 100%;
+background-color: lightgray;
+bottom: 0;
+position: fixed;
+}
+
+  
+
+
+#AppLinksContainer {
+height: 35px;
+width: 500px;
+margin: auto;
+position: relative;
+top: 20px;
+}
+@media screen and (max-width: 600px) {
+  #AppLinksContainer { width: 250px;}
+}
+
+#AppPicLink {
+float: left;
+display: inline-block;
+}
+
+#GooglePicLink {
+float: right;
+display: inline-block;
+
+}
+
+</style>
+
+<body>
+
+<div id="DisclaimerContainer">
+
+<h1>Note: This site is entirely fictional and exists only for demonstration purposes</h1>
+
+</div>
+
+<div id="NavContainer">
+
+  <nav>
+    <ul>
+      <li><a href="SalmonHome.html">Home</a></li>
+      <li><a href="MenuPage.html">Menu</a></li>
+      <li><a href="LocationPage.html">Location</a></li>
+      <li><a class="active" href="AboutPage.html">About</a></li>
+      <li><a href="">Downloads</a>
+	<ul>
+	  <li><a href="ItunesAppDownloadPage.html">Itunes App Download</a></li>
+	  <li><a href="GooglePlayAppDownloadPage.html">Google Play App Download</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div id="AboutParagraph">
+<h1 id="AboutHead">About</h1> 
+<p>The Slammin' Salmon is a fictional Seafood dining restaurant that features Salmon cuisines. The restaurant was founded by Robert Everett in Indiana in June 2018
+ and is currently owned and operated by Robert Everett.</p>
+</div>
+
+
+
+
+<footer>
+  
+  <div id="FooterContainer">  
+    
+    <div id="AppLinksContainer">
+    <a class="AppLinks" href="ItunesAppDownloadPage.html">
+      <img id="AppPicLink" src="ItunesAppDownload.png" alt="Itunes Download Link">
+    </a> 
+    <a class="AppLinks" href="GooglePlayAppDownloadPage.html">
+      <img id="GooglePicLink" src="GooglePlayAppDownload.png" alt="Google Play Download Link">
+    </a> 
+    </div>
+
+  </div>
+
+</footer>
+
+
+</body>
+
+</html>
