@@ -293,6 +293,10 @@ background-color: black;
 margin-top: 300px;
 }
 
+@media screen and (min-width: 100vh) {
+  #infofoot { width: 100%;}
+}
+
 #infotitle {
 color: white;
 display: block;
