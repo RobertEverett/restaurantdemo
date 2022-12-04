@@ -3,6 +3,7 @@ background-image: url('dining.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
+width: 100%;
 }
 #headinfo {
 background-color: #ffcc00;
