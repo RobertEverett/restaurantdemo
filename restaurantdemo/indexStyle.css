@@ -4,12 +4,12 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 #headinfo {
-margin: 0 auto;
 background-color: #ffcc00;
 border-bottom: 4px solid brown;
 font-family: 'Times New Roman', Times, serif;
 height: 45px;
 width: 100%;
+position: absolute;
 }
 
 #head1 {
