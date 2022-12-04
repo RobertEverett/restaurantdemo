@@ -2,7 +2,10 @@ body {
 background-image: url('dining.jpg');
 background-repeat: no-repeat;
 height: 100%;
-background-size: relative;
+background-size: cover;
+}
+@media screen and (max-width: 500px) {
+  body { background-size: cover; }
 }
 #headinfo {
 background-color: #ffcc00;
