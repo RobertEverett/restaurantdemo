@@ -11,8 +11,12 @@ border-bottom: 4px solid brown;
 font-family: 'Times New Roman', Times, serif;
 height: 45px;
 width: 100%;
-
 }
+@media screen and (min-width: 100px) {
+  #headinfo {width: 100%; }
+}
+
+
 
 
 #head1 {
