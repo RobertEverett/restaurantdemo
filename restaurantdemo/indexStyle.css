@@ -2,7 +2,7 @@ body {
 background-image: url('dining.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-
+height: 100%;
 }
 
 #headinfo {
@@ -13,8 +13,7 @@ height: 45px;
 width: 100%;
 
 }
-@media screen and (min-height:100vh) {
-  #headinfo { width: 100%; }
+
 
 #head1 {
 display: inline-block;
