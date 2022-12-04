@@ -15,6 +15,8 @@ height: 45px;
 width: 100%;
 
 }
+@media screen and (min-height:100vh) {
+  #headinfo { background-size: cover; }
 
 #head1 {
 display: inline-block;
