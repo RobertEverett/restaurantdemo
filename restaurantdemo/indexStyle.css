@@ -9,7 +9,7 @@ background-color: #ffcc00;
 border-bottom: 4px solid brown;
 font-family: 'Times New Roman', Times, serif;
 height: 45px;
-width: 100% auto;
+width: 100%;
 
 }
 
@@ -31,7 +31,7 @@ position: relative;
 
 #navcontainer {
 height: 100px;
-width: 45%;
+width: 100%;
 display: inline-block;
 margin-top: 5%;
 
