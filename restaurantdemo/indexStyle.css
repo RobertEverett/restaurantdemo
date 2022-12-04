@@ -8,8 +8,8 @@ background-color: #ffcc00;
 border-bottom: 4px solid brown;
 font-family: 'Times New Roman', Times, serif;
 height: 45px;
-width: 100%;
-position: absolute;
+width: 100% auto;
+
 }
 
 #head1 {
