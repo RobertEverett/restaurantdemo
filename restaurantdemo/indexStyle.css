@@ -4,9 +4,7 @@ background-repeat: no-repeat;
 height: 100%;
 background-size: cover;
 }
-@media screen and (min-height:100vh) {
-  body { background-size: cover; }
-}
+
 #headinfo {
 background-color: #ffcc00;
 border-bottom: 4px solid brown;
