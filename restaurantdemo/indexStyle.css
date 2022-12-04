@@ -2,7 +2,7 @@ body {
 background-image: url('dining.jpg');
 background-repeat: no-repeat;
 height: 100%;
-width: 100%;
+background-size: cover;
 }
 #headinfo {
 background-color: #ffcc00;
