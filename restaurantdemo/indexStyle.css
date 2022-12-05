@@ -113,9 +113,7 @@ li a:hover {
 text-decoration: none;
 }
 
-#slide {
-margin-top: 10%;
-}
+
 
 #imagetitlecontainer{
 height: 140px;
@@ -193,7 +191,7 @@ border-bottom: 4px solid brown;
 box-shadow: 0 16px 16px rgb(0,0,0);
 height: 500px; 
 width: 100%;
-margin-top: 5%;
+margin-top: 50%;
 overflow: hidden;
 position: relative;
 }
