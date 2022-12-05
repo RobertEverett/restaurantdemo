@@ -113,6 +113,10 @@ li a:hover {
 text-decoration: none;
 }
 
+#slide {
+margin-top: 10%;
+}
+
 #imagetitlecontainer{
 height: 140px;
 width: 350px;
